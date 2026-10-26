@@ -1,0 +1,6 @@
+img:only-child{
+    border: 2px solid cornflowerblue;
+}
+a[href]>img:only-child{
+    border: 2px solid chartreuse;
+}

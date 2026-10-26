@@ -1,0 +1,15 @@
+a:link{
+    background-color: chartreuse;
+}
+
+a:visited{
+    background-color: cyan;
+}
+
+a:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+a:active{
+    background-color: blueviolet;
+}

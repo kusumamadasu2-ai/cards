@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(208, 255, 0);
+    font-family: cursive;
+}
+form{
+    border: 2px solid crimson;
+}
+input:required{
+    border: 2px groove cyan;
+}
+input:not(:required){
+    border: 2px dashed chocolate;
+}
+input:read-only{
+    background-color: lightpink;
+}
+input[:read-only]{
+    backgrount color
+}
+p{
+    display: none;
+}
+input:hover+p{
+    display: inline;
+    background-color: blue;
+    font-family: cursive;
+}
+img.valid,
+img.invalid {
+    display: none;
+    width: 18px;
+    height: 18px;
+}
+
+input[type="email"]:focus:valid ~ img.valid {
+    display: inline;
+}
+
+input[type="email"]:focus:invalid ~ img.invalid {
+    display: inline;
+}
+

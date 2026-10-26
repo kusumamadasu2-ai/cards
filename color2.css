@@ -1,0 +1,36 @@
+.text{
+    color: blueviolet;
+    text-align: center;
+    text-decoration: underline;
+    text-indent: 30px;
+    letter-spacing: 10px;
+    word-spacing: 4px;
+    line-height: 1.8;
+    text-shadow: 2px 2px 2px rgb(237, 100, 100);
+
+}
+
+.font{
+    font-family:fantasy ;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.box_shadow{
+    width:200px;
+    height: 100px;
+    background-color: blue;
+    box-shadow: 2px 2px 2px red ;
+
+}
+.Nani{
+  width:200px;
+    height: 100px;
+    object-fit: contain;   
+     object-fit: cover;  
+}
+.outline{
+    
+}

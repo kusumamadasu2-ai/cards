@@ -1,0 +1,22 @@
+body{
+    background-color: aqua;
+    front-family:arial,sans-serif;
+}
+h1{
+    color: black; 
+    text-align:center;
+}
+p{
+    color:rgb(19, 0, 139);
+    font-size:18px;
+}
+h2{
+    background-color: gray;
+    border: solid chartreuse;
+    width="1000"
+            height="500">
+}
+ h2{
+    color:black;
+    text-align:center;
+}

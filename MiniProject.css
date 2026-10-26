@@ -1,0 +1,33 @@
+div>h1{
+    color: red;
+}
+div p{
+    background-color: aquamarine;
+}
+h2+p{
+    color: blueviolet;
+}
+h2~p{
+    color: brown;
+}
+input[placeholder]{
+    border:2px solid chartreuse;
+}
+input[type="enter your email"]{
+    color: crimson;
+}
+a [herf^="https"]{
+    color: greenyellow;
+}
+a[herf$="pdf"]{
+    color: yellow ;
+}
+a[herf*="course"]{
+    color: darkgreen;
+}
+p:only-child{
+    background-color: dodgerblue;
+}
+p:only-of-type{
+    border:2px solid chocolate;
+}

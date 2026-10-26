@@ -1,0 +1,26 @@
+.lift{
+    width: 200px;
+    height: 200px;
+    background-color:blueviolet;
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 100px;
+    animation: liftJourney;
+    animation-duration: 7s;
+    animation-iteration-count: 3;
+    /* animation-timing-function: ease-in-ease; */
+}
+@keyframes liftJourney{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,6 @@
+input[type]{
+    border:2px solid crimson;
+}
+input[name*=student]{
+    border: 2px solid blueviolet;
+}
