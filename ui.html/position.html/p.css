@@ -1,0 +1,20 @@
+.container {
+    width: 100px; /* Widened to let text fit comfortably */
+    height: 500px;
+    position: relative;
+}
+
+.img {
+    width: 100%; /* Spans full width of container */
+    height: 100px; /* Spans full height of container */
+    object-fit: cover;
+} 
+
+.p {
+    position: absolute;
+    top: 30%;
+    left: 20%; 
+    color: blue;
+    background-color: brown;
+    font-size: 20px; /* Scaled down to fit the container */
+}
